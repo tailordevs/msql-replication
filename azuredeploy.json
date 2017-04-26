@@ -118,7 +118,7 @@
         },
         "imageOffer": {
             "type": "string",
-            "defaultValue": "UbuntuServer",
+            "defaultValue": "CentOS",
             "allowedValues": [
               "CentOS",
               "UbuntuServer"
@@ -129,7 +129,7 @@
         },
         "imageSKU": {
             "type": "string",
-            "defaultValue": "14.04.5-LTS",
+            "defaultValue": "6.6",
           "allowedValues": [
             "6.5",
             "6.6",
