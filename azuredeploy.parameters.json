@@ -1,1 +1,24 @@
-{"$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#","contentVersion": "1.0.0.0","parameters": {"dnsName": {"value": "mysqlRepTest"},"vmUserName": {"value": "testingVN"},"vmPassword": {"value": "Merilife#300"},"mysqlReplicationPassword": {"value": "Merilife#300"},"mysqlRootPassword": {"value": "Merilife#300"},"mysqlProbePassword": {"value": "Merilife#300"}}}
+{
+    "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "dnsName": {
+            "value": "GEN-UNIQUE-10"
+        },
+        "vmUserName": {
+            "value": "azureuser"
+        },
+        "vmPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "mysqlReplicationPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "mysqlRootPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "mysqlProbePassword": {
+            "value": "GEN-PASSWORD"
+        }
+    }
+}
