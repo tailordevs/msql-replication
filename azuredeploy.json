@@ -54,14 +54,14 @@
         },
         "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "mysqlvnet",
+            "defaultValue": "dbsubnet",
             "metadata": {
                 "description": "Virtual network name for the cluster"
             }
         },
         "vnetNewOrExisting": {
             "type": "string",
-            "defaultValue": "new",
+            "defaultValue": "existing",
             "allowedValues": [
                 "new",
                 "existing"
@@ -93,21 +93,21 @@
         },
         "dbSubnetAddressPrefix": {
             "type": "string",
-            "defaultValue": "10.0.1.0/24",
+            "defaultValue": "10.0.0.0/24",
             "metadata": {
                 "description": "IP address in CIDR for db subnetq"
             }
         },
         "dbSubnetStartAddress": {
             "type": "string",
-            "defaultValue": "10.0.1.4",
+            "defaultValue": "10.0.0.10",
             "metadata": {
                 "description": "Start IP address in the subnet for the VMs"
             }
         },
         "imagePublisher": {
             "type": "string",
-            "defaultValue": "OpenLogic",
+            "defaultValue": "Canonical",
             "allowedValues": [
               "OpenLogic",
               "Canonical"
@@ -118,7 +118,7 @@
         },
         "imageOffer": {
             "type": "string",
-            "defaultValue": "CentOS",
+            "defaultValue": "UbuntuServer",
             "allowedValues": [
               "CentOS",
               "UbuntuServer"
@@ -129,7 +129,7 @@
         },
         "imageSKU": {
             "type": "string",
-            "defaultValue": "6.6",
+            "defaultValue": "14.04.5-LTS",
           "allowedValues": [
             "6.5",
             "6.6",
@@ -183,7 +183,7 @@
         },
         "artifactsPath": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-replication",
+            "defaultValue": "https://raw.githubusercontent.com/tailordevs/msql-replication/master",
             "metadata": {
                 "description": "template and script file location",
                 "artifactsBaseUrl": "Base URL of the Publisher Template gallery package"

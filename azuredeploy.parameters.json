@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "dnsName": {
-            "value": "GEN-UNIQUE-10"
+            "value": "mysqlrep"
         },
         "vmUserName": {
-            "value": "azureuser"
+            "value": "testingVN"
         },
         "vmPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Merilife#300"
         },
         "mysqlReplicationPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Merilife#300"
         },
         "mysqlRootPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Merilife#300"
         },
         "mysqlProbePassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Merilife#300"
         }
     }
 }
